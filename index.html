@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>My Website</title>
-</head>
-<body>
-<h1>Hello My Website</h1>
-<p>เว็บของฉัน</p>
-</body>
-</html>
+import subprocess
+
+def set_media_volume(level):
+    """level = 0 ถึง 15"""
+    subprocess.run(['termux-volume', 'music', str(level)])
+
+set_media_volume(5)
