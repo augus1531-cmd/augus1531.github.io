@@ -11,3 +11,5 @@ Termux
 5.cd augus1531.github.io
 
 6.python music.py
+
+7.python image.py
