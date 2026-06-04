@@ -13,3 +13,5 @@ Termux
 6.python music.py
 
 7.python image.py
+
+git pull https://github.com/augus1531-cmd/augus1531.github.io.git
